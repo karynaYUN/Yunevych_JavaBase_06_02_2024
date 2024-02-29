@@ -44,8 +44,8 @@ public class HomeWork6 {
         int S5= in.nextInt();
         in.nextLine();
 
-        int averageF=(F1+F2+F3+F4+F5)/5;
-        int averageS=(S1+S2+S3+S4+S5)/5;
+        double averageF=(F1+F2+F3+F4+F5)/5;
+        double averageS=(S1+S2+S3+S4+S5)/5;
 
 
         if (averageF>averageS){
