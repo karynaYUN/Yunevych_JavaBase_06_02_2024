@@ -10,7 +10,7 @@ public class HomeWork7 {
                 final int MAX = 10;
                 final int MAX_ATTEMPTS = 3;
 
-                int secretNumber = (int) (Math.random() * (MAX - MIN + 1)) + MIN;
+                int secretNum = (int) (Math.random() * (MAX - MIN + 1)) + MIN;
                 int attempts = 0;
                 int guess;
 
@@ -33,12 +33,12 @@ public class HomeWork7 {
                         continue;
                     }
 
-                    if (guess == secretNumber) {
-                        System.out.println("Вітаємо! Ви вгадали число " + secretNumber);
+                    if (guess == secretNum) {
+                        System.out.println("Вітаємо! Ви вгадали число " + secretNum);
                         return;
                     } else {
                         System.out.println("Спроба " + (attempts + 1) + ": Не вірно.");
-                        if (guess < secretNumber) {
+                        if (guess < secretNum) {
                             System.out.println("Шукане число більше.");
                         } else {
                             System.out.println("Шукане число менше.");
@@ -47,7 +47,7 @@ public class HomeWork7 {
                     attempts++;
                 }
 
-                System.out.println("На жаль, ви не вгадали.Число було: " + secretNumber);
+                System.out.println("На жаль, ви не вгадали.Число було: " + secretNum);
             }
         }
 
