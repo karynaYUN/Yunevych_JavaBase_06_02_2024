@@ -6,6 +6,7 @@ public class Person {
         Person p2=new Person("Jackie", "Chan", "Shanghai", "12312412412");
         Person p3=new Person("Sherlock ", "Holme", "London", "37742123513");
 
+
         System.out.println(p1.personInfo());
         System.out.println(p2.personInfo());
         System.out.println(p3.personInfo());
