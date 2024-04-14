@@ -2,7 +2,6 @@ package ua.hillel.yunevych.lessons.lesson9;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
 
 public class HomeWork11 {
     public static void main(String[] args) {
